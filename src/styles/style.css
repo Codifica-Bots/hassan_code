@@ -1,0 +1,234 @@
+/* ------------------------------ */
+/* ****************************** */
+
+/* Global Variables  */
+
+/* ****************************** */
+/* ------------------------------ */
+
+:root {
+    --primary-color: #3185fc;
+    --light-color: #464646;
+    --heading-1: 4.8rem;
+    --heading-2: 3.2rem;
+    --heading-3: 2.4rem;
+    --paragrapgh: 1.6rem;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Samsung Sharp Sans;
+  }
+  html {
+    font-size: 16px;
+  }
+  body {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  section {
+    margin-bottom: 3rem;
+  }
+  a {
+    text-decoration: none;
+  }
+  h1 {
+    font-size: var(--heading-1);
+  }
+  p {
+    font-size: var(--paragrapgh);
+    font-weight: 400;
+  }
+  .grid {
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .span_primary {
+    color: var(--primary-color);
+  }
+  .button {
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: var(--paragrapgh);
+    padding: 20px 30px;
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+  
+  /* ------------------------------ */
+  /* Hero Section Starts  */
+  /* ------------------------------ */
+  
+  .hero_Section {
+    height: 100vh;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+  }
+  .logo {
+    cursor: pointer;
+  }
+  .navbar {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .flex_Items {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+  .nav_Item {
+    font-size: var(--paragrapgh);
+    font-weight: normal;
+  }
+  .main_Hero {
+    height: 85%;
+  }
+  .grid_1 {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+  }
+  .botUsed {
+    height: auto;
+  }
+  .used_col {
+    display: flex;
+    flex-direction: column;
+  }
+  .used_span_1 {
+    font-size: var(--paragrapgh);
+  }
+  .used_span_2 {
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: var(--heading-1);
+  }
+  
+  .grid_2 {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+  }
+  .image_1 {
+    background-color: aquamarine;
+    height: 80%;
+    width: 45%;
+    margin-top: 2rem;
+    border-radius: 12px;
+    background: url("/assets/image 7.png");
+    background-size: cover;
+  }
+  
+  .image_2 {
+    background-color: rgb(40, 255, 183);
+    height: 80%;
+    width: 45%;
+    margin-top: 5rem;
+    border-radius: 12px;
+    background: url("/assets/image 7.png");
+    background-size: cover;
+  }
+  
+  /* ------------------------------ */
+  /* Hero Section Ends   */
+  /* ------------------------------ */
+  
+  /* ------------------------------ */
+  /* Video Demo Section Starts  */
+  /* ------------------------------ */
+  
+  .video_Demo {
+    height: 100vh;
+    width: auto;
+  }
+  .flex_last {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3rem 0rem;
+  }
+  .grid_Gap{
+      flex-direction: column;
+      display: flex;
+      gap: 3rem;
+  }
+  .video{
+      margin: auto auto;
+      width: 90%;
+      background-color: #464646;
+      height: 90%;
+      border-radius: 0.4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .play{
+      height: 30%;
+      width: 40%;
+      background-color: #3185fc;
+      border-radius: 50%;
+  }
+  
+  /* ------------------------------ */
+  /* Video Demo Section Ends  */
+  /* ------------------------------ */
+  
+  /* ------------------------------ */
+  /* Live Demo Section Starts  */
+  /* ------------------------------ */
+  .live_Demo {
+      height: 100vh;
+      width: auto;
+  }
+  .live_Grid_2{
+      display: flex;
+      align-items: center;
+      height: 100%;
+  }
+  .live{
+      background-color: #3185fc;
+      height: 80%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: var(--heading-3);
+  }
+  /* ------------------------------ */
+  /* Live Demo Section Ends  */
+  /* ------------------------------ */
+  
+  /* ------------------------------ */
+  /* FAQs Section Starts  */
+  /* ------------------------------ */
+  
+  /* ------------------------------ */
+  /* FAQs Section Ends   */
+  /* ------------------------------ */
+  
+  /* ------------------------------ */
+  /* Testimonials Section Starts  */
+  /* ------------------------------ */
+  
+  /* ------------------------------ */
+  /* Testimonials Section Ends    */
+  /* ------------------------------ */
+  
+  /* -------------------- */
+  /* Footer Section Starts  */
+  /* -------------------- */
+  
+  /* -------------------- */
+  /* Footer Section Ends  */
+  /* -------------------- */
