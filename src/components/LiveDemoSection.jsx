@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-no-duplicate-props */
 // import React from 'react';
 import "../styles/style.css";
+import ChatBot from "./ChatBot";
 
 
 
@@ -25,8 +26,7 @@ function LiveDemoSection() {
         </div>
         <div className="live_Grid_2">
           <div className="live">
-         
-            
+            <ChatBot height={"100%"} width={"inherit"} />
           </div>
         </div>
       </div>

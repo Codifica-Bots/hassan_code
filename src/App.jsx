@@ -11,9 +11,6 @@ function App() {
       <HeroSection />
       <VideoDemoSection />
       <LiveDemoSection />
-      <div style={{ height: "40vh", width: "80vw"}}>
-        <ChatBot height={"initial"} width={"inherit"} />
-      </div>
     </div>
   );
 }
